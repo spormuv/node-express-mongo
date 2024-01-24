@@ -5,10 +5,17 @@ const router = express.Router();
 
 // router.param('id', tourController.checkId);
 
+// Alias routing start
+router
+  .route('/top-5-cheap')
+  .get(tourController.aliasTopTours, tourController.getAllTours);
+// Alias routing end
+
 router
   .route('/')
   .get(tourController.getAllTours)
   .post(tourController.createTour);
+
 router
   .route('/:id')
   .get(tourController.getTour)
