@@ -1,10 +1,17 @@
 const express = require('express');
 const tourController = require('../controllers/tourController');
 const authController = require('../controllers/authController');
+const reviewRouter = require('./reviewRoutes');
 
 const router = express.Router();
 
 // router.param('id', tourController.checkId);
+
+// Routes for reviews
+// POST /tour/:tourId/reviews
+// GET /tour/:tourId/reviews
+
+router.use('/:tourId/reviews', reviewRouter);
 
 // Alias routing
 router
