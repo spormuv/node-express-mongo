@@ -19,6 +19,8 @@ const vewRouter = require('./routes/vewRoutes');
 
 const app = express();
 
+app.enable('trust proxy');
+
 // Set up pug engine and views location
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
