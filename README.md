@@ -13,3 +13,5 @@ To log in use one of these addresses:
 
 The password for all email addresses is: `test1234`
 <br />To book tour, enter `4242 4242 4242 4242` in the field 'Card information' (credit card number)
+
+If booking a tour doesn't work, please turn off CSP in your browser (e.g. browser extension 'Allow CSP')
