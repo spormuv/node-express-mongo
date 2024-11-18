@@ -48,7 +48,10 @@ const scriptSrcUrls = [
   'https://api.tiles.mapbox.com/',
   'https://api.mapbox.com/',
   'https://cdnjs.cloudflare.com',
+  'https://js.stripe.com/',
   'https://js.stripe.com/v3/',
+  'https://m.stripe.network',
+  'https://pay.google.com',
 ];
 const styleSrcUrls = [
   'https://api.mapbox.com/',
